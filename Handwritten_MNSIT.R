@@ -1,6 +1,6 @@
 
-train_rows = 5000
-test_rows = 2500
+train_rows = 50000
+test_rows = 10000
 train = read.csv("train.csv" , header = F , nrows = train_rows )
 test = read.csv( "test.csv" , header = F , nrow= test_rows )
 #last column is the label 
